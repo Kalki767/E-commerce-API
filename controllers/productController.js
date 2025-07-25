@@ -1,5 +1,5 @@
 const Product = require('../models/Product');
-const cloudinary = require('../config/cloudinary');
+const { cloudinary } = require('../config/cloudinary');
 
 // Get all products
 const getProducts = async (req, res) => {
